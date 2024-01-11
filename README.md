@@ -1,26 +1,25 @@
 # On-Unified-Adaptive-Portfolio-Management
 This repository contains datasets used for quantitative financial analysis and modeling. Each file is described below:
 
-File Descriptions:
+## File Descriptions
 
-README.md:
-This markdown file provides an overview of the repository's contents and instructions for how to use the data.
-bm_opp.csv:
-Data for book-to-market ratio and operating profitability.
-investment.csv:
-Contains investment data over a specified period.
-mktrf.csv:
-Market risk factor data, likely representing the excess return on a market portfolio above the risk-free rate, often used in CAPM or multi-factor models.
-sp500ccm.csv:
-S&P 500 constituent data with possibly CRSP/Compustat Merged (CCM) information, useful for analysis of individual stocks within the index.
-tic_quarter_marketcap.csv.zip:
-Quarterly market capitalization data for various tickers, compressed into a ZIP file for efficiency.
-value_weighted_return.csv:
-Data on value-weighted returns, which could be used to track portfolio performance where each security is weighted by market value.
-us_om_treasury_bill_rate:
-Folder containing data on US Treasury Bill rates, which are often used as the risk-free rate in financial models.
+- `README.md`: Overview and instructions for the repository.
 
-Usage:
+- `bm_opp.csv`: Book-to-market ratios and operating profitability metrics, important for value factor analysis.
+
+- `investment.csv`: Detailed records of investment positions and their performance over time.
+
+- `mktrf.csv`: Market risk premium data, calculated as the excess return of a broad market portfolio over the risk-free rate.
+
+- `sp500ccm.csv`: Constituent data for the S&P 500 index, merged with Compustat data for comprehensive analysis.
+
+- `tic_quarter_marketcap.csv.zip`: Zipped file containing quarterly market capitalization figures for a range of publicly traded companies.
+
+- `value_weighted_return.csv`: Return data weighted by the market value of each constituent, reflecting market performance.
+
+- `us_om_treasury_bill_rate`: A collection of historical U.S. Treasury Bill rates, often used as a benchmark for the risk-free rate in financial models.
+
+## Usage:
 
 To use the datasets, clone the repository to your local machine and load the CSV files into your preferred data analysis tool, such as R, Python, or Excel.
 
