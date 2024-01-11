@@ -25,10 +25,10 @@ To use the datasets, clone the repository to your local machine and load the CSV
 
 Please ensure that you comply with any and all usage restrictions or attribution requirements associated with the data.
 
-Contributing:
+## Contributing:
 
 For contributions or corrections to the datasets, please open a pull request with a clear description of the changes proposed.
 
-License:
+## License:
 
 Specify the license under which the data is shared, if applicable.
