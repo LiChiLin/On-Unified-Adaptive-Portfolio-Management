@@ -6,9 +6,9 @@ File Descriptions:
 README.md:
 This markdown file provides an overview of the repository's contents and instructions for how to use the data.
 bm_opp.csv:
-Data on benchmark opportunities. May include benchmark comparison metrics or opportunity analysis for different financial instruments.
+Data for book-to-market ratio and operating profitability.
 investment.csv:
-Contains investment data over a specified period. Could include information on investment returns, asset allocation, and performance metrics.
+Contains investment data over a specified period.
 mktrf.csv:
 Market risk factor data, likely representing the excess return on a market portfolio above the risk-free rate, often used in CAPM or multi-factor models.
 sp500ccm.csv:
@@ -19,6 +19,7 @@ value_weighted_return.csv:
 Data on value-weighted returns, which could be used to track portfolio performance where each security is weighted by market value.
 us_om_treasury_bill_rate:
 Folder containing data on US Treasury Bill rates, which are often used as the risk-free rate in financial models.
+
 Usage:
 
 To use the datasets, clone the repository to your local machine and load the CSV files into your preferred data analysis tool, such as R, Python, or Excel.
